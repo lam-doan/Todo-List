@@ -125,8 +125,9 @@ input[type="checkbox"] {
 input[type="checkbox"]::before {
     content: "\2713";
     display: inline-block;
-    width: 1.45rem;
-    height: 1.45rem;
+    background-color: var(--blue);
+    width: 1.41rem;
+    height: 1.41rem;
     font-size: 1.1rem;
     text-align: center;
     border: 0.06rem solid var(--grey-border);
